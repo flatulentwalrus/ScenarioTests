@@ -26,7 +26,6 @@ public class CookieClickerBot {
 		loadBt.click();
 		Thread.sleep(500);
 		WebElement cookie = driver.findElement(By.xpath("//*[@id=\"bigCookie\"]"));
-		while(true) cookie.click();
+		for(;;) cookie.click();
 	}
 }
-//class = menu, value = Import save
